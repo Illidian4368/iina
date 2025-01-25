@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -155,8 +155,15 @@
 		49542978216C34950058F680 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49542977216C34950058F680 /* SafariExtensionHandler.swift */; };
 		49542980216C34950058F680 /* open-in-iina.js in Resources */ = {isa = PBXBuildFile; fileRef = 4954297F216C34950058F680 /* open-in-iina.js */; };
 		49542982216C34950058F680 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49542981216C34950058F680 /* ToolbarItemIcon.pdf */; };
-		49542986216C34950058F680 /* OpenInIINA.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 49542973216C34950058F680 /* OpenInIINA.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		496B19921E2968530035AF10 /* PIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496B19911E2968530035AF10 /* PIP.framework */; };
+		49542986216C34950058F680 /* OpenInIINA.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 49542973216C34950058F680 /* OpenInIINA.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D1BE6E82D4C3FB3001C2D28 /* CoreDisplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5196819929EC963F00B05D55 /* CoreDisplay.framework */; };
+		4D1BE6E92D4C3FB4001C2D28 /* CoreDisplay.framework in Copy Dylibs */ = {isa = PBXBuildFile; fileRef = 5196819929EC963F00B05D55 /* CoreDisplay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D1BE6EA2D4C3FBB001C2D28 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8403CEA62007CBD300645516 /* MediaPlayer.framework */; };
+		4D1BE6EB2D4C3FBB001C2D28 /* MediaPlayer.framework in Copy Dylibs */ = {isa = PBXBuildFile; fileRef = 8403CEA62007CBD300645516 /* MediaPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D1BE6EC2D4C3FC1001C2D28 /* PIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496B19911E2968530035AF10 /* PIP.framework */; };
+		4D1BE6ED2D4C3FC2001C2D28 /* PIP.framework in Copy Dylibs */ = {isa = PBXBuildFile; fileRef = 496B19911E2968530035AF10 /* PIP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D1BE6EF2D4C3FCE001C2D28 /* Accessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1BE6EE2D4C3FCE001C2D28 /* Accessibility.framework */; };
+		4D1BE6F32D4C41ED001C2D28 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1BE6F22D4C41ED001C2D28 /* IOKit.framework */; };
 		51096C0B2CD88BEC00702C31 /* MPVOptionDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51096C0A2CD88BEC00702C31 /* MPVOptionDefaults.swift */; };
 		5111B18B2C8BCEAC00DEC0AC /* TouchBarSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5111B18A2C8BCEAC00DEC0AC /* TouchBarSettings.swift */; };
 		512B8FDD2BC2376E00AF41BF /* OutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512B8FDC2BC2376E00AF41BF /* OutlineView.swift */; };
@@ -165,7 +172,6 @@
 		518376DD2C23DD2300574F00 /* libgcc_s.1.1.dylib in Copy Dylibs */ = {isa = PBXBuildFile; fileRef = 518376D92C23DB1400574F00 /* libgcc_s.1.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		518376DE2C23DD2300574F00 /* libstdc++.6.dylib in Copy Dylibs */ = {isa = PBXBuildFile; fileRef = 518376DB2C23DB2F00574F00 /* libstdc++.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		51854CDA2A1C489300C40B78 /* FFmpegLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51854CD92A1C489300C40B78 /* FFmpegLogger.swift */; };
-		5196819A29EC963F00B05D55 /* CoreDisplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5196819929EC963F00B05D55 /* CoreDisplay.framework */; };
 		519872FF26879B9B00F84BCC /* AccessibilityPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519872FE26879B9B00F84BCC /* AccessibilityPreferences.swift */; };
 		519CCABD2BFFAEF10079DCAF /* HardwareDecodeCapabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519CCABC2BFFAEF10079DCAF /* HardwareDecodeCapabilities.swift */; };
 		51AC1CAB2A9FBF3700DF7079 /* OpenSubClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AC1CAA2A9FBF3700DF7079 /* OpenSubClient.swift */; };
@@ -195,7 +201,6 @@
 		8400D5F01E1AB344006785F5 /* PrefCodecViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400D5F21E1AB344006785F5 /* PrefCodecViewController.xib */; };
 		8400D5F31E1AB348006785F5 /* PrefSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400D5F51E1AB348006785F5 /* PrefSubViewController.xib */; };
 		8400D5F61E1AB34D006785F5 /* PrefNetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8400D5F81E1AB34D006785F5 /* PrefNetworkViewController.xib */; };
-		8403CEA72007CBD400645516 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8403CEA62007CBD300645516 /* MediaPlayer.framework */; };
 		8407D1401E3A684C0043895D /* ViewLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407D13F1E3A684C0043895D /* ViewLayer.swift */; };
 		840820111ECF6C1800361416 /* FileGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840820101ECF6C1800361416 /* FileGroup.swift */; };
 		840AF5821E732C8F00F4AF92 /* JustXMLRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840AF5811E732C8F00F4AF92 /* JustXMLRPC.swift */; };
@@ -419,15 +424,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4954298A216C34960058F680 /* Embed App Extensions */ = {
+		4954298A216C34960058F680 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				49542986216C34950058F680 /* OpenInIINA.appex in Embed App Extensions */,
+				49542986216C34950058F680 /* OpenInIINA.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8461BA631E423423008BB852 /* Copy Executables */ = {
@@ -461,6 +466,7 @@
 				34ACABBE2C142A0C00F871A0 /* libb2.1.dylib in Copy Dylibs */,
 				34ACABBF2C142A0C00F871A0 /* libbluray.2.dylib in Copy Dylibs */,
 				34ACABC02C142A0C00F871A0 /* libbrotlicommon.1.dylib in Copy Dylibs */,
+				4D1BE6ED2D4C3FC2001C2D28 /* PIP.framework in Copy Dylibs */,
 				34ACABC12C142A0C00F871A0 /* libbrotlidec.1.dylib in Copy Dylibs */,
 				34ACABC22C142A0C00F871A0 /* libbrotlienc.1.dylib in Copy Dylibs */,
 				34ACABC32C142A0C00F871A0 /* libdav1d.7.dylib in Copy Dylibs */,
@@ -497,6 +503,7 @@
 				34ACABE22C142A0C00F871A0 /* libshaderc_shared.1.dylib in Copy Dylibs */,
 				34ACABE32C142A0C00F871A0 /* libsharpyuv.0.dylib in Copy Dylibs */,
 				34ACABE42C142A0C00F871A0 /* libsnappy.1.dylib in Copy Dylibs */,
+				4D1BE6E92D4C3FB4001C2D28 /* CoreDisplay.framework in Copy Dylibs */,
 				34ACABE52C142A0C00F871A0 /* libsodium.26.dylib in Copy Dylibs */,
 				34ACABE62C142A0C00F871A0 /* libsoxr.0.dylib in Copy Dylibs */,
 				34ACABE72C142A0C00F871A0 /* libspeex.1.dylib in Copy Dylibs */,
@@ -513,6 +520,7 @@
 				34ACABF22C142A0C00F871A0 /* libX11.6.dylib in Copy Dylibs */,
 				34ACABF32C142A0C00F871A0 /* libXau.6.dylib in Copy Dylibs */,
 				34ACABF42C142A0C00F871A0 /* libxcb-shape.0.dylib in Copy Dylibs */,
+				4D1BE6EB2D4C3FBB001C2D28 /* MediaPlayer.framework in Copy Dylibs */,
 				34ACABF52C142A0C00F871A0 /* libxcb-shm.0.dylib in Copy Dylibs */,
 				34ACABF62C142A0C00F871A0 /* libxcb-xfixes.0.dylib in Copy Dylibs */,
 				34ACABF72C142A0C00F871A0 /* libxcb.1.dylib in Copy Dylibs */,
@@ -1185,6 +1193,9 @@
 		4964988E2919E47900CD61A5 /* OpenInIINA.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = OpenInIINA.xcconfig; sourceTree = "<group>"; };
 		496B19911E2968530035AF10 /* PIP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PIP.framework; path = /System/Library/PrivateFrameworks/PIP.framework; sourceTree = "<group>"; };
 		49F7E3BF2920D65C002DA28E /* Availability.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Availability.xcconfig; sourceTree = "<group>"; };
+		4D1BE6EE2D4C3FCE001C2D28 /* Accessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accessibility.framework; path = System/Library/Frameworks/Accessibility.framework; sourceTree = SDKROOT; };
+		4D1BE6F02D4C4117001C2D28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		4D1BE6F22D4C41ED001C2D28 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		51096C0A2CD88BEC00702C31 /* MPVOptionDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPVOptionDefaults.swift; sourceTree = "<group>"; };
 		5111B18A2C8BCEAC00DEC0AC /* TouchBarSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarSettings.swift; sourceTree = "<group>"; };
 		512B8FDC2BC2376E00AF41BF /* OutlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineView.swift; sourceTree = "<group>"; };
@@ -1672,7 +1683,6 @@
 		84EB1ED61D2F51D3004FA5A1 /* IINA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IINA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EB1ED91D2F51D3004FA5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EB1EDB1D2F51D3004FA5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84EB1EE01D2F51D3004FA5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EB1F041D2F5C5B004FA5A1 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
 		84EB1F061D2F5E76004FA5A1 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		84EC12821F4F939000137C1E /* FilterPresets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterPresets.swift; sourceTree = "<group>"; };
@@ -1906,7 +1916,7 @@
 		E38BA1BF253E54F2000B551D /* JavascriptAPIGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavascriptAPIGlobal.swift; sourceTree = "<group>"; };
 		E38BA1C3254110BD000B551D /* JavascriptMessageHub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JavascriptMessageHub.swift; sourceTree = "<group>"; };
 		E38BD4AE20054BD9007635FC /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
-		E393669923BDD1850070D626 /* IINA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IINA.entitlements; sourceTree = "<group>"; };
+		E393669923BDD1850070D626 /* IINA.entitlements */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = IINA.entitlements; sourceTree = "<group>"; };
 		E3958563253133E80096811F /* SidebarTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarTabView.swift; sourceTree = "<group>"; };
 		E3958564253133E80096811F /* SidebarTabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SidebarTabView.xib; sourceTree = "<group>"; };
 		E3958585253309C90096811F /* PluginSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginSidebarView.swift; sourceTree = "<group>"; };
@@ -2042,7 +2052,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				34ACABA32C142A0500F871A0 /* libsoxr.0.dylib in Frameworks */,
-				496B19921E2968530035AF10 /* PIP.framework in Frameworks */,
 				34ACABAC2C142A0500F871A0 /* libnettle.8.dylib in Frameworks */,
 				34ACABA82C142A0500F871A0 /* libsamplerate.0.dylib in Frameworks */,
 				34ACAB892C142A0500F871A0 /* libunibreak.6.dylib in Frameworks */,
@@ -2053,7 +2062,6 @@
 				34ACAB9A2C142A0500F871A0 /* libuchardet.0.dylib in Frameworks */,
 				34ACAB742C142A0500F871A0 /* liblcms2.2.dylib in Frameworks */,
 				34ACAB7E2C142A0500F871A0 /* libvulkan.1.dylib in Frameworks */,
-				8403CEA72007CBD400645516 /* MediaPlayer.framework in Frameworks */,
 				34ACAB782C142A0500F871A0 /* libsharpyuv.0.dylib in Frameworks */,
 				34ACAB852C142A0500F871A0 /* libdav1d.7.dylib in Frameworks */,
 				34ACABAF2C142A0500F871A0 /* libb2.1.dylib in Frameworks */,
@@ -2062,13 +2070,16 @@
 				34ACAB872C142A0500F871A0 /* libpostproc.58.dylib in Frameworks */,
 				34ACAB952C142A0500F871A0 /* libbrotlienc.1.dylib in Frameworks */,
 				34ACAB8F2C142A0500F871A0 /* libbrotlidec.1.dylib in Frameworks */,
+				4D1BE6EF2D4C3FCE001C2D28 /* Accessibility.framework in Frameworks */,
 				34ACAB8B2C142A0500F871A0 /* libsnappy.1.dylib in Frameworks */,
 				34ACABA02C142A0500F871A0 /* libplacebo.338.dylib in Frameworks */,
+				4D1BE6EA2D4C3FBB001C2D28 /* MediaPlayer.framework in Frameworks */,
 				34ACAB7C2C142A0500F871A0 /* libwebpmux.3.dylib in Frameworks */,
 				34ACABB62C142A0500F871A0 /* libass.9.dylib in Frameworks */,
 				34ACAB7A2C142A0500F871A0 /* libunistring.5.dylib in Frameworks */,
 				34ACABAE2C142A0500F871A0 /* libhwy.1.dylib in Frameworks */,
 				34ACAB8D2C142A0500F871A0 /* libavfilter.10.dylib in Frameworks */,
+				4D1BE6E82D4C3FB3001C2D28 /* CoreDisplay.framework in Frameworks */,
 				34ACAB762C142A0500F871A0 /* libgnutls.30.dylib in Frameworks */,
 				34ACABA62C142A0500F871A0 /* libhogweed.6.dylib in Frameworks */,
 				B4E4470125CE3F930069F06E /* Sparkle in Frameworks */,
@@ -2079,6 +2090,7 @@
 				34ACAB912C142A0500F871A0 /* libpcre2-8.0.dylib in Frameworks */,
 				34ACAB882C142A0500F871A0 /* libswscale.8.dylib in Frameworks */,
 				34ACAB972C142A0500F871A0 /* libjxl_threads.0.10.dylib in Frameworks */,
+				4D1BE6EC2D4C3FC1001C2D28 /* PIP.framework in Frameworks */,
 				34ACABAB2C142A0500F871A0 /* libzimg.2.dylib in Frameworks */,
 				34ACAB832C142A0500F871A0 /* libjxl.0.10.dylib in Frameworks */,
 				34ACAB9F2C142A0500F871A0 /* libidn2.0.dylib in Frameworks */,
@@ -2089,7 +2101,6 @@
 				34ACAB922C142A0500F871A0 /* libtasn1.6.dylib in Frameworks */,
 				8451E6D92604AEFC009A15D7 /* Just in Frameworks */,
 				34ACAB8E2C142A0500F871A0 /* libxcb-xfixes.0.dylib in Frameworks */,
-				5196819A29EC963F00B05D55 /* CoreDisplay.framework in Frameworks */,
 				34ACAB822C142A0500F871A0 /* libwebp.7.dylib in Frameworks */,
 				34ACAB9C2C142A0500F871A0 /* libavformat.61.dylib in Frameworks */,
 				34ACAB932C142A0500F871A0 /* libzstd.1.dylib in Frameworks */,
@@ -2125,6 +2136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38558912A486E060083772D /* Mustache in Frameworks */,
+				4D1BE6F32D4C41ED001C2D28 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2268,6 +2280,8 @@
 		848290731D95978100C3C76C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D1BE6F22D4C41ED001C2D28 /* IOKit.framework */,
+				4D1BE6EE2D4C3FCE001C2D28 /* Accessibility.framework */,
 				34ACAB592C142A0400F871A0 /* libarchive.13.dylib */,
 				34ACAB712C142A0500F871A0 /* libass.9.dylib */,
 				34ACAB602C142A0400F871A0 /* libavcodec.61.dylib */,
@@ -2356,7 +2370,7 @@
 				C78987311E34EF170005769F /* InfoPlist.strings */,
 				84E745D71DFDE8C100588DED /* config */,
 				84EB1EDB1D2F51D3004FA5A1 /* Assets.xcassets */,
-				84EB1EE01D2F51D3004FA5A1 /* Info.plist */,
+				4D1BE6F12D4C4117001C2D28 /* Info.plist */,
 				845AC09E1E1AE6C10080B614 /* Localizable.strings */,
 				34F294BF2C0B68B300F14962 /* Contribution.rtf */,
 				8483FAFF1EDFF325000F55D6 /* Credits.rtf */,
@@ -2803,7 +2817,7 @@
 				84817CE81DBE2E3200CC2279 /* Copy Lua Scripts */,
 				84E745DA1DFDE9C600588DED /* Copy Configs */,
 				8461BA631E423423008BB852 /* Copy Executables */,
-				4954298A216C34960058F680 /* Embed App Extensions */,
+				4954298A216C34960058F680 /* Embed Foundation Extensions */,
 				51728768291B6F30009E6EC1 /* Write Info.h */,
 			);
 			buildRules = (
@@ -2869,8 +2883,10 @@
 		84EB1ECE1D2F51D3004FA5A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				CLASSPREFIX = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1620;
 				ORGANIZATIONNAME = lhc;
 				TargetAttributes = {
 					49542972216C34950058F680 = {
@@ -2880,7 +2896,6 @@
 					};
 					84EB1ED51D2F51D3004FA5A1 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 67CQ77V27R;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -2896,7 +2911,6 @@
 				};
 			};
 			buildConfigurationList = 84EB1ED11D2F51D3004FA5A1 /* Build configuration list for PBXProject "iina" */;
-			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -2934,12 +2948,14 @@
 				hr,
 			);
 			mainGroup = 84EB1ECD1D2F51D3004FA5A1;
+			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				B4E446E625CB53920069F06E /* XCRemoteSwiftPackageReference "PromiseKit" */,
 				B4E446F525CB54EF0069F06E /* XCRemoteSwiftPackageReference "GRMustache" */,
 				B4E446FF25CE3F930069F06E /* XCRemoteSwiftPackageReference "Sparkle" */,
 				8451E6D72604AEFC009A15D7 /* XCRemoteSwiftPackageReference "Just" */,
 			);
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 84EB1ED71D2F51D3004FA5A1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -3400,6 +3416,14 @@
 				34B1FDB12C70484B00FB93A4 /* uk */,
 			);
 			name = PrefPluginViewController.xib;
+			sourceTree = "<group>";
+		};
+		4D1BE6F12D4C4117001C2D28 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D1BE6F02D4C4117001C2D28 /* Base */,
+			);
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 		8400D5C81E1AB2F1006785F5 /* MainWindowController.xib */ = {
@@ -4657,6 +4681,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4964988E2919E47900CD61A5 /* OpenInIINA.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -4664,6 +4690,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4964988E2919E47900CD61A5 /* OpenInIINA.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -4671,6 +4699,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51537C7229FA26DD00F9A472 /* Nightly.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				SKIP_INSTALL = YES;
 			};
 			name = Nightly;
@@ -4679,6 +4711,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 496498882919E47900CD61A5 /* iina.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = iina;
+				DEVELOPMENT_TEAM = S9ZL84LCM9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "GL_SILENCE_DEPRECATION=1";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2017-2025\nCollider LI, et al.\nReleased under GPLv3.";
@@ -4688,6 +4725,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/deps/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SKIP_INSTALL = NO;
 			};
 			name = Nightly;
@@ -4696,6 +4734,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4964988B2919E47900CD61A5 /* iina-cli.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Nightly;
 		};
@@ -4703,6 +4743,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4964988E2919E47900CD61A5 /* OpenInIINA.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Nightly;
 		};
@@ -4710,6 +4752,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51A0F0F629FA2C8E000130CF /* Beta.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				SKIP_INSTALL = YES;
 			};
 			name = Beta;
@@ -4718,6 +4764,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 496498882919E47900CD61A5 /* iina.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = iina;
+				DEVELOPMENT_TEAM = S9ZL84LCM9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "GL_SILENCE_DEPRECATION=1";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2017-2025\nCollider LI, et al.\nReleased under GPLv3.";
@@ -4727,6 +4778,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/deps/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SKIP_INSTALL = NO;
 			};
 			name = Beta;
@@ -4735,6 +4787,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4964988B2919E47900CD61A5 /* iina-cli.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Beta;
 		};
@@ -4742,6 +4796,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4964988E2919E47900CD61A5 /* OpenInIINA.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Beta;
 		};
@@ -4749,6 +4805,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4964988C2919E47900CD61A5 /* Debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -4757,6 +4817,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4964988D2919E47900CD61A5 /* Release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -4765,6 +4829,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 496498882919E47900CD61A5 /* iina.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = iina;
+				DEVELOPMENT_TEAM = S9ZL84LCM9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"GL_SILENCE_DEPRECATION=1",
 					"$(inherited)",
@@ -4777,6 +4846,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/deps/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SKIP_INSTALL = NO;
 			};
 			name = Debug;
@@ -4785,6 +4855,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 496498882919E47900CD61A5 /* iina.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = iina;
+				DEVELOPMENT_TEAM = S9ZL84LCM9;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "GL_SILENCE_DEPRECATION=1";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2017-2025\nCollider LI, et al.\nReleased under GPLv3.";
@@ -4794,6 +4869,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/deps/lib",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				SKIP_INSTALL = NO;
 			};
 			name = Release;
@@ -4833,6 +4909,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -4850,7 +4927,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -4897,6 +4974,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -4908,7 +4986,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -4954,6 +5032,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -4965,7 +5044,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5011,6 +5090,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -5022,7 +5102,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -5037,6 +5117,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4964988B2919E47900CD61A5 /* iina-cli.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -5044,6 +5126,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4964988B2919E47900CD61A5 /* iina-cli.xcconfig */;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
