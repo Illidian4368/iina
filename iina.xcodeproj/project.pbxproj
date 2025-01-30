@@ -163,7 +163,8 @@
 		4D1BE6EC2D4C3FC1001C2D28 /* PIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 496B19911E2968530035AF10 /* PIP.framework */; };
 		4D1BE6ED2D4C3FC2001C2D28 /* PIP.framework in Copy Dylibs */ = {isa = PBXBuildFile; fileRef = 496B19911E2968530035AF10 /* PIP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4D1BE6EF2D4C3FCE001C2D28 /* Accessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1BE6EE2D4C3FCE001C2D28 /* Accessibility.framework */; };
-		4D1BE6F32D4C41ED001C2D28 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1BE6F22D4C41ED001C2D28 /* IOKit.framework */; };
+		4D1BE6F42D4C443F001C2D28 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1BE6F22D4C41ED001C2D28 /* IOKit.framework */; };
+		4D1BE6F52D4C443F001C2D28 /* IOKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1BE6F22D4C41ED001C2D28 /* IOKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		51096C0B2CD88BEC00702C31 /* MPVOptionDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51096C0A2CD88BEC00702C31 /* MPVOptionDefaults.swift */; };
 		5111B18B2C8BCEAC00DEC0AC /* TouchBarSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5111B18A2C8BCEAC00DEC0AC /* TouchBarSettings.swift */; };
 		512B8FDD2BC2376E00AF41BF /* OutlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512B8FDC2BC2376E00AF41BF /* OutlineView.swift */; };
@@ -433,6 +434,17 @@
 				49542986216C34950058F680 /* OpenInIINA.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1BE6F62D4C443F001C2D28 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4D1BE6F52D4C443F001C2D28 /* IOKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8461BA631E423423008BB852 /* Copy Executables */ = {
@@ -2136,7 +2148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38558912A486E060083772D /* Mustache in Frameworks */,
-				4D1BE6F32D4C41ED001C2D28 /* IOKit.framework in Frameworks */,
+				4D1BE6F42D4C443F001C2D28 /* IOKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2845,6 +2857,7 @@
 				E38558832A484A2D0083772D /* Sources */,
 				E38558842A484A2D0083772D /* Frameworks */,
 				E38558852A484A2D0083772D /* CopyFiles */,
+				4D1BE6F62D4C443F001C2D28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
